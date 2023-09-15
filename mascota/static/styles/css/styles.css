@@ -1,0 +1,58 @@
+/* Variables formulario */
+* {
+  color: #ffffff;
+  margin: 0; }
+
+body {
+  background-color: #28536B; }
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.href {
+  color: #4B4B4B;
+  text-decoration: none; }
+
+.carlo-login {
+  width: 80%;
+  height: auto;
+  transition: transform 1s ease-in-out; }
+
+.carlo-login:hover {
+  transform: rotate(360deg); }
+
+/* Parte de carlito */
+#carlo-base {
+  width: 70%;
+  height: auto; }
+
+.contenedor-carlito {
+  display: inline-block;
+  max-width: auto;
+  padding: 1.5em;
+  background-color: #1D2F6F;
+  margin: 2em 1em;
+  border: #040710 6px solid; }
+  .contenedor-carlito button {
+    border: 4px #000000 solid;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 30%;
+    transition: 1s all; }
+  .contenedor-carlito button:hover {
+    border: 4px #242323 solid; }
+
+.footer-text, .header-text {
+  display: block;
+  max-width: auto;
+  margin-top: 2em;
+  padding: 1.5em;
+  background-color: #1D2F6F;
+  border: #040710 6px solid; }
+  .footer-text h6, .header-text h6 {
+    margin-bottom: 2em; }
+
+/*# sourceMappingURL=styles.css.map */
