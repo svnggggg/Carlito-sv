@@ -8,7 +8,7 @@ class mascota (models.Model):
     salud = models.IntegerField(null = False, default = 100)
     hambre = models.IntegerField(null = False, default = 0)
     diversion = models.IntegerField(null = False, default = 100)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    #user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__ (self):
         return self.nombre   

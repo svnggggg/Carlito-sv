@@ -1,10 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Bienvenido a Carlito </title>
-    <link rel="shortcut icon" href="{% static '/ico.ico' %}">
+    <link rel="shortcut icon" href="{% static 'ico.ico' %}">
     <link rel="stylesheet" href="{% static 'styles/css/formulario.css' %}">
     <link rel="stylesheet" href="{% static 'styles/css/styles.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
@@ -60,7 +62,7 @@
             <p> Espero que lo disfruten, esto esta hecho con mucho love </p>
             <h6> Pd: el nombre "Carlito" proviene de un dialecto del diseñador, el cual hacia referencia a los sanguches de miga<br>(Si queres escuchar musica porque estas embolado jugando este juego, ponete este tema:  )</h6>
             <audio controls>
-                <source src="{% static '/soundtrack1.mp3' %}" type="audio/mpeg">
+                <source src="{% static 'soundtrack1.mp3' %}" type="audio/mpeg">
             </audio>
         </footer>
     </main>
