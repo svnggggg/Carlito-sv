@@ -16,16 +16,16 @@
   <main class="container">
     <div class="login container d-flex align-items-center justify-content-center">
       <div class="carrusel-imagen">
-        <img src="{% static 'img/slays/Sprite-0007.png' %}" class="carlo-login mx-auto d-block img-fluid animated-image" alt="Carlito3"> 
+        <img src="{% static 'img/slays/Sprite-0007.png' %}" class="carlo-login mx-auto d-block img-fluid animated-image carlo-base" alt="Carlito3"> 
       </div>
 
       <section class="section_form">
         <h1><span class="badge rounded-pill bg-primary justify-content-center"> Carlito </span></h1>
-        <form id="consultation-form" class="feed-form" action="#">
+        <form id="consultation-form" class="feed-form" action="#" method="post">
           <input required="" placeholder="Ingrese su contraseña" type="text">
           <input name="Email" required="" placeholder="Ingrese su mail" type="email">
-          <button class="button_submit btn btn-success"><a class="href" href="./base.html"> Iniciar sesión </a></button>
           <button class="button_submit btn btn-warning"> Crear cuenta </button>
+          <button class="button_submit btn btn-success carlo" type="submit"> Iniciar sesión </button>
         </form>
       </section>
     </div>

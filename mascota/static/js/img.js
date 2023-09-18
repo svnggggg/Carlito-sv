@@ -1,9 +1,10 @@
+/* 
+
 var pos=0;
 var to_show = document.getElementById('carlo-base');
 var imagenes = [
-    './img/slays/Sprite-0001.png',
-    './img/slays/Sprite-0002.png',
-    './img/slays/Sprite-0003.png'
+    "{% static 'img/slays/Sprite-0002.png' %}",
+    "{% static 'img/slays/Sprite-0003.png' %}"
 ];
 
 function dibujar(pos){
@@ -17,3 +18,7 @@ var to = setInterval(function(){
         clearInterval(to);
     }
 },1000);
+
+console.log('HASDHASDHASHDAHSD')
+
+*/

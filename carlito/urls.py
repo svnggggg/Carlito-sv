@@ -20,6 +20,7 @@ from mascota import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('prueba/', views.prueba, name='prueba'),
+    path('prueba/', views.prueba, name="prueba"),
     path('login/', views.login, name="login"),
+    path('carlo/', views.carlo, name="base"),
 ]
