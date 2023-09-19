@@ -14,3 +14,6 @@ def login(request):
 
 def carlo(request):
     return render(request, 'carlo.html')
+
+def stats(request):
+    return render(request, 'stats.html')
