@@ -34,7 +34,7 @@ main.container {
 
 /* Parte de carlito */
 
-#carlo-base{
+.carl-sex{
     width: 70%;
     height: auto;
     // border: $--border-hitbox;
@@ -53,11 +53,6 @@ main.container {
         margin-left: 1.5em;
         margin-bottom: 1em;
         border-radius: 30%;
-        transition: 1s all;
-    }
-
-    button:hover{
-        border: $--border3;
     }
 }
 

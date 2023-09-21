@@ -17,3 +17,12 @@ def carlo(request):
 
 def stats(request):
     return render(request, 'stats.html')
+
+# def comer(request):
+    # return render(request, 'comer.html')
+
+# def banio(request):
+    # return render(request, 'banio.html')
+
+# def gym(request):
+    # return render(request, 'gym.html')

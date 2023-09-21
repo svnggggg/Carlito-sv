@@ -25,7 +25,7 @@ main.container {
   transform: rotate(360deg); }
 
 /* Parte de carlito */
-#carlo-base {
+.carl-sex {
   width: 70%;
   height: auto; }
 
@@ -33,17 +33,14 @@ main.container {
   display: inline-block;
   max-width: auto;
   padding: 1.5em;
-  background-color: #ea1717;
+  background-color: #18414E;
   margin: 2em 1em;
   border: #040710 6px solid; }
   .contenedor-carlito button {
     border: 4px #000000 solid;
     margin-left: 1.5em;
     margin-bottom: 1em;
-    border-radius: 30%;
-    transition: 1s all; }
-  .contenedor-carlito button:hover {
-    border: 4px #242323 solid; }
+    border-radius: 30%; }
 
 .footer-text, .header-text {
   display: block;
