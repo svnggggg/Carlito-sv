@@ -24,8 +24,8 @@ urlpatterns = [
     path('login/', views.login, name='login'),
     path('carlo/', views.carlo, name='carlo'),
     path('stats/', views.stats, name='stats'),
+    path('comer/', views.comer, name='comer'),
     
-    # path('comer/', views.comer, name='comer'),
     # path('banio/', views.banio, name='banio'),
     # path('gym/', views.gym, name='gym'),
 ]

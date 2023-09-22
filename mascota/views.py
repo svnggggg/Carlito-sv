@@ -18,8 +18,8 @@ def carlo(request):
 def stats(request):
     return render(request, 'stats.html')
 
-# def comer(request):
-    # return render(request, 'comer.html')
+def comer(request):
+    return render(request, 'morfi.html')
 
 # def banio(request):
     # return render(request, 'banio.html')

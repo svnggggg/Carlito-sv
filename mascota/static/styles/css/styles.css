@@ -29,18 +29,37 @@ main.container {
   width: 70%;
   height: auto; }
 
-.contenedor-carlito {
+.carl-sex2 {
+  width: 60%;
+  height: auto; }
+
+.contenedor-carlito, .contenedor-carlito2 {
   display: inline-block;
   max-width: auto;
   padding: 1.5em;
   background-color: #18414E;
   margin: 2em 1em;
   border: #040710 6px solid; }
-  .contenedor-carlito button {
+  .contenedor-carlito button, .contenedor-carlito2 button {
     border: 4px #000000 solid;
     margin-left: 1.5em;
     margin-bottom: 1em;
     border-radius: 30%; }
+
+.contenedor-carlito2 {
+  max-width: 60%; }
+
+.saludable, .chatarra {
+  display: inline-block;
+  max-width: auto;
+  border: 2px red solid;
+  margin-top: 1em; }
+  .saludable h3, .chatarra h3 {
+    color: #ffffff; }
+  .saludable img, .chatarra img {
+    width: 20%;
+    height: auto;
+    border: 2px red solid; }
 
 .footer-text, .header-text {
   display: block;

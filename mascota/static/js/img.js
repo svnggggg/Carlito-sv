@@ -1,10 +1,10 @@
-/* 
+/*
 
 var pos=0;
 var to_show = document.getElementById('carlo-base');
 var imagenes = [
-    "{% static 'img/slays/Sprite-0002.png' %}",
-    "{% static 'img/slays/Sprite-0003.png' %}"
+    "{% static 'mm/slays/Sprite-0002.png' %}",
+    "{% static 'mm/slays/Sprite-0003.png' %}"
 ];
 
 function dibujar(pos){

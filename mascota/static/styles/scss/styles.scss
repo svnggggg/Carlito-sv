@@ -40,7 +40,12 @@ main.container {
     // border: $--border-hitbox;
 }
 
-.contenedor-carlito{
+.carl-sex2{
+    width: 60%;
+    height: auto;
+}
+
+.contenedor-carlito, .contenedor-carlito2{
     display: inline-block;
     max-width: auto;
     padding: 1.5em;
@@ -56,6 +61,27 @@ main.container {
     }
 }
 
+.contenedor-carlito2{
+    max-width: 60%;
+}
+
+.saludable, .chatarra{
+    display: inline-block;
+    max-width: auto;
+    border: $--border-hitbox;
+    margin-top: 1em;
+
+    h3{
+        color: $--color2;
+    }
+
+    img{
+        width: 20%;
+        height: auto;
+        border: $--border-hitbox;
+    }
+}
+
 .footer-text, .header-text{
     display: block;
     max-width: auto;
@@ -68,3 +94,6 @@ main.container {
         margin-bottom: 2em; 
     }
 }
+
+
+
