@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bienvenido a Carlito </title>
+    <title> Coma carlo, coma!! </title>
     <link rel="shortcut icon" href="{% static 'mm/ico.ico' %}">
     <link rel="stylesheet" href="{% static 'styles/css/formulario.css' %}" type="text/css">
     <link rel="stylesheet" href="{% static 'styles/css/styles.css' %}" type="text/css">
@@ -22,19 +22,45 @@
             <img src="{% static 'mm/slays/Sprite-0001.png' %}" class="mx-auto d-block img-fluid carl-sex2">
             
             <div class="saludable bg-success">
-                <h3> Saludable: </h3>
-                <img src="{% static 'mm/morfi/creatina.png' %}">
-                <img src="{% static 'mm/morfi/ensalada.png' %}">
-                <img src="{% static 'mm/morfi/pollo.png' %}">
-                <img src="{% static 'mm/morfi/pescado.png' %}">
+                <h3 class=""> Saludable: </h3>
+                <form>
+                    <button class="botones-comida" type="submit"> 
+                        <img src="{% static 'mm/morfi/creatina.png' %}"> 
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/ensalada.png' %}">
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/pollo.png' %}">
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/pescado.png' %}">
+                    </button>
+                </form>    
             </div>
 
             <div class="chatarra bg-danger">
-                <h3> Chatarra: </h3>
-                <img src="{% static 'mm/morfi/mcdonalds.png' %}">
-                <img src="{% static 'mm/morfi/ferne.png' %}">
-                <img src="{% static 'mm/morfi/viagra.png' %}">
-                <img src="{% static 'mm/morfi/laxante.png' %}">
+                <h3 class=""> Chatarra: </h3>
+                <form>
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/mcdonalds.png' %}">
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/ferne.png' %}">
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/viagra.png' %}">
+                    </button>
+
+                    <button class="botones-comida"> 
+                        <img src="{% static 'mm/morfi/laxante.png' %}">
+                    </button>
+                </form>
             </div>
         </div>
     </main>
