@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render, redirect
 
 # Create your views here.
 
@@ -21,8 +22,8 @@ def stats(request):
 def comer(request):
     return render(request, 'morfi.html')
 
-# def banio(request):
-    # return render(request, 'banio.html')
+def banio(request):
+    return render(request, 'banio.html')
 
 # def gym(request):
     # return render(request, 'gym.html')
